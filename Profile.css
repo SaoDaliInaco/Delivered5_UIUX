@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.tablet-profile-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+body {
+  background: #f4e8dc;
+  padding: 30px;
+  max-width: 900px;
+  margin: auto;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.brand {
+  color: #9a4a00;
+  font-size: 28px;
+}
+
+h2 {
+  margin: 25px 0 12px;
+  font-size: 22px;
+}
+
+.profile-card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.avatar {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  background: black;
+}
+
+.profile-info h3 {
+  font-size: 20px;
+}
+
+.profile-info p {
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+
+.card-group {
+  background: #ddd;
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.card {
+  padding: 14px 18px;
+  border-bottom: 1px solid #aaa;
+  background: #e4e4e4;
+}
+
+.card:last-child {
+  border-bottom: none;
+}
+
+
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #f4e8dc;
+  padding: 12px;
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid #ccc;
+  font-size: 20px;
+}
+.profile-pic {
+  width: 100px;            
+  height: 100px;           
+  border-radius: 50%;     
+  object-fit: cover;     
+  border: 2px solid #000;
+}
+

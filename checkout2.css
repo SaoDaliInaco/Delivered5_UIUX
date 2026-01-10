@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background: #f5e6d8;
+    padding: 40px;
+    color: #4b2d10;
+}
+
+.back-btn {
+    font-size: 26px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.checkout-title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: #895013;
+}
+
+.checkout-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 26px;
+    margin-bottom: 30px;
+}
+
+.card {
+    background: #efd6c0;
+    padding: 22px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.card-title {
+    color: #8d4f09;
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+
+.bank-icon {
+    width: 50px;
+    margin-bottom: 6px;
+}
+
+.total-box {
+    margin: 24px 0;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.order-btn {
+    display: inline-block;
+    background: #743465;
+    color: white;
+    padding: 12px 40px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 18px;
+}
