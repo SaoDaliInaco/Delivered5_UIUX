@@ -45,7 +45,26 @@
     <p><strong>Total:</strong> 21.5$</p>
 </div>
 
-<a class="order-btn" href="order-success.html">Order</a>
+<div id="orderPopup" class="popup">
+        <div class="popup-content">
+            <div class="popup-icon">✔</div>
+            <h2>Thank you for<br>your order!</h2>
+            <button id="goHomeBtn" class="home-btn">Go back to homepage</button>
+        </div>
+    </div>
+
+    <button id="checkoutBtn" class="order-btn">Order</button>
+
+    <script>
+    document.getElementById("checkoutBtn").addEventListener("click", function() {
+        document.getElementById("orderPopup").style.display = "flex";
+    });
+
+    document.getElementById("goHomeBtn").addEventListener("click", function() {
+        window.location.href = "Homepage.html";
+    });
+    </script>
+
 
 </body>
 </html>
