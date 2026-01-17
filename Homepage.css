@@ -9,8 +9,35 @@ body {
     background: #f5e6d8;
 }
 
+/* LOGO HEADER */
+.top-header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 20px 20px 10px 20px;
+}
+
+.logo {
+    height: 70px;
+    object-fit: contain;
+}
+
+/* VALENTINE BANNER */
+.valentine-banner {
+    width: 90%;
+    margin: 0 auto 25px auto;
+    background: #db5b7a;
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+    padding: 26px 0;
+    border-radius: 28px;
+}
+
+/* MAIN CONTAINER */
 .container {
-    padding: 30px;
+    padding: 0 30px 100px 30px;
 }
 
 .section-title {
@@ -18,42 +45,41 @@ body {
     font-size: 22px;
     font-weight: 600;
     margin-bottom: 12px;
+    margin-top: 10px;
 }
 
+/* SEASONAL ITEMS */
 .product-row {
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 20px;
-    align-items: center;
     flex-wrap: wrap;
-    gap: 30px; /* space between different flowers */
-    padding: 10px 0;
+    gap: 35px;
+    margin-bottom: 30px;
 }
 
 .product-card {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20 px;
 }
 
 .product-card img {
-    width: 150px;
-    height: 150px;
+    width: 170px;
+    height: 170px;
     object-fit: cover;
     border-radius: 6px;
 }
 
+/* SPECIAL OFFERS GRID */
 .product-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 22px;
-    margin-bottom: 80px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
 }
 
-
 .product-item {
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -66,11 +92,24 @@ body {
     border-radius: 6px;
 }
 
+/* BEST SELLER BADGE */
+.badge {
+    position: absolute;
+    top: -6px;
+    left: 0px;
+    background: #c83d31;
+    color: white;
+    padding: 4px 10px;
+    font-size: 11px;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
 .tag {
     margin-top: 6px;
     border: none;
-    padding: 6px 14px;
-    border-radius: 4px;
+    padding: 6px 18px;
+    border-radius: 18px;
     color: white;
     font-size: 14px;
     cursor: pointer;
@@ -84,6 +123,7 @@ body {
     background: #743465;
 }
 
+/* BOTTOM NAV */
 .bottom-nav {
     position: fixed;
     bottom: 0;
@@ -96,21 +136,3 @@ body {
     align-items: center;
     font-size: 22px;
 }
-.seasonal-section {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-}
-
-
-.seasonal-items {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 25px;
-    width: fit-content;
-}
-
-
